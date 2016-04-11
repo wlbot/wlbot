@@ -1,7 +1,7 @@
 @echo OFF
 
 rem eXtremeWLbot ocx & dll installer.
-rem credit kicktakers, The Dragon, aa6my.
+rem credit Kick Takers, The Dragon, aa6my.
 
 reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32BIT || set OS=64BIT
 
